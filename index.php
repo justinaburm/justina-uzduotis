@@ -42,11 +42,12 @@
 				<p>(Ir dar matau win-win situaciją: taip gali gauti ne tik mano popierinę knygą, bet praplėsti savo pažinčių ratą!)</p>
  				<p>Tačiau suradęs popierinį knygos variantą vis tiek gali mane paremti įsigydamas elektroninę kurios nors mano knygos (arba abiejų) versiją.</p>
 			</div>
-			<img src="images/portrait-2.jpg">
+			<img id="portrait-2" src="images/portrait-2.jpg">
 		</div>
 		<div class="books">
 			<div class="vertical">
 				<img src="images/book-Lorem-1.jpg">
+				<img id="book-2-phones" class="border" src="images/book-Lorem-2.jpg">
 				<div class="text">
 					<h3>Pirmoji knyga</h3>
 					<h2>Lorem: Lorem Ipsum</h2>
@@ -61,7 +62,7 @@
 					<p>Quisque fringilla vel odio ac fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus massa eu lorem egestas, nec facilisis mauris tincidunt. Nullam vitae dapibus odio. Quisque vel magna volutpat, iaculis orci non, varius odio. Quisque tincidunt ante vitae commodo tincidunt. In sit amet massa velit.</p>
 					<p>Fusce in ante vel tellus vestibulum viverra. Mauris malesuada fringilla varius. Aliquam eu laoreet dui. Donec hendrerit ligula diam, in hendrerit massa sodales in. Quisque molestie nunc gravida lobortis commodo. Donec erat leo, tristique at tortor et, tincidunt malesuada nibh. Aenean fermentum, neque ac feugiat vulputate, nisi sem efficitur nisi, non vulputate dui neque vitae neque. Suspendisse potenti. Donec eget arcu rutrum, condimentum lacus quis, pretium tortor. Integer consequat velit quis sapien luctus efficitur at ac quam. Fusce ipsum purus, rhoncus eu posuere at, sodales in erat. In eu fermentum orci, sed ultricies enim. Aenean hendrerit nunc et vulputate finibus. Suspendisse tempus et tortor at lobortis. Morbi et ultrices turpis.</p>
 			</div>
-			<img class="border" src="images/book-Lorem-2.jpg">
+			<img id="book-2-laptops" class="border" src="images/book-Lorem-2.jpg">
 		</div>
 	</div>
 <hr>

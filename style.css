@@ -74,6 +74,10 @@ hr {
   display: inline-block;
 }
 
+#book-2-phones {
+  display: none;
+}
+
 .about-me img {
   width: 50%;
   /* max-width: 30vw; */
@@ -160,4 +164,192 @@ hr {
 
 .order-container .text h2 {
   margin-bottom: 40px;
+}
+/* --------------------- DIFFERENT SCREENS --------------------- */
+
+@media only screen and (max-width: 1200px) {
+  .border {
+    border: solid 2px #000;
+  }
+  .container {
+    margin: 5vw;
+    align-items: center;
+  }
+
+  h2 {
+    /* text-align: center; */
+    font-size: 60px;
+  }
+
+  h3, p {
+    margin: 15px;
+  }
+
+  h3 {
+    font-size: 30px;
+    /* text-align: center; */
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  hr {
+    margin: 20px 0 60px;
+  }
+
+  .order-container .text {
+    top: 250px;
+  }
+
+  .about-me {
+    width: 80vw;
+    display: block;
+    /* height: 40vh; */
+  }
+
+  .about-me .text {
+    width: 100%;
+  }
+
+  .about-me img, .about-me div, .books img, .books div {
+    display: inline-block;
+  }
+
+  .about-me img {
+    width: 100%;
+    /* max-width: 30vw; */
+    /* max-height: 30vw; */
+  }
+
+  .about-me .text {
+    padding: 40px;
+  }
+
+  .vertical img, .books img {
+    width: 35%;
+    /* max-height: 70vh !important; */
+  }
+  .vertical .text, .books .text {
+    width: 50%;
+    padding: 40px;
+    /* max-height: 70vh !important; */
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #portrait-2 {
+    display: none;
+  }
+
+  .order-container .text {
+    top: 250px;
+  }
+
+  .about-me {
+    width: 100%;
+    display: block;
+    /* height: 40vh; */
+  }
+
+  .about-me .text {
+    width: 100%;
+  }
+
+  .about-me img, .about-me div, .books div {
+    display: block;
+  }
+
+  .about-me img {
+    width: 100%;
+    /* max-width: 30vw; */
+    /* max-height: 30vw; */
+  }
+
+  .about-me .text {
+    padding: 40px;
+  }
+
+  #book-2-phones {
+    display: inline-block;
+  }
+
+  #book-2-laptops {
+    display: none;
+  }
+
+
+  .books img {
+    width: 40%;
+    padding: 20px;
+    /* max-height: 70vh !important; */
+  }
+  .vertical .text, .books .text {
+    width: 100%;
+    padding: 40px;
+    /* max-height: 70vh !important; */
+  }
+  /* --------------------- ORDER content --------------------- */
+
+  .order-form form{
+    margin: 40px 40px 0;
+  }
+
+  .order-form {
+    /* width: 100vw; */
+  }
+
+  .order-form__row input, .order-form__row select {
+    margin: 5px;
+    width: 50vw;
+    border-radius: 5px;
+    border: #000 3px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .order-form__row label {
+    display: inline-block;
+    width: 100px;
+    font-size: 25px;
+  }
+
+  .order-form__row .button {
+    height: 50px;
+    margin-top: 20px;
+    width: 460px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .order-form__row .button:hover {
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .order-container div {
+    display: block;
+  }
+
+  .order-container .order-form {
+    width: 50%;
+    margin-left: 20vw;
+  }
+
+  .order-container .text {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    margin-left: 30vw;
+  }
+
+
+  .order-container .text h2 {
+    margin-bottom: 40px;
+  }
 }
