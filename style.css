@@ -1,0 +1,163 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  overflow: auto;
+}
+
+.border {
+  border: solid 2px #000;
+}
+
+h2 {
+  /* text-align: center; */
+  font-size: 70px;
+}
+
+h3, p {
+  margin: 15px;
+}
+
+h3 {
+  font-size: 35px;
+  /* text-align: center; */
+}
+
+p {
+  font-size: 20px;
+}
+
+hr {
+  border: solid 2px #000;
+  margin: 20px 0 80px;
+}
+
+.green-font {
+  color: #00ff00;
+}
+
+.red-font {
+  color: #ff0000;
+}
+
+/*--------------------- HEADER fullscreen fixed image  */
+.header {
+  background-image: url("images/portrait-0.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 20vh;
+  color: #fff;
+  padding-top: 20vh;
+  /* font-family: 'Quicksand', sans-serif; */
+  text-transform: uppercase;
+}
+/*--------------------- CONTAINER content  ---------------------*/
+.container {
+  margin: 10vw;
+  align-items: center;
+}
+
+.about-me {
+  width: 80vw;
+  display: block;
+  /* height: 40vh; */
+}
+
+.about-me .text {
+  width: 40%;
+}
+
+.about-me img, .about-me div, .books img, .books div {
+  display: inline-block;
+}
+
+.about-me img {
+  width: 50%;
+  /* max-width: 30vw; */
+  /* max-height: 30vw; */
+}
+
+.about-me .text {
+  padding: 40px;
+}
+
+.vertical img, .books img {
+  width: 30%;
+  /* max-height: 70vh !important; */
+}
+.vertical .text, .books .text {
+  width: 60%;
+  padding: 40px;
+  /* max-height: 70vh !important; */
+}
+
+
+/* --------------------- ORDER content --------------------- */
+
+.order-form form{
+  margin: 40px 40px 0;
+}
+
+.order-form__row input, .order-form__row select {
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: #000 3px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 50px;
+  font-size: 20px;
+}
+
+.order-form__row label {
+  display: inline-block;
+  width: 100px;
+  font-size: 25px;
+}
+
+.order-form__row .button {
+  height: 50px;
+  margin-top: 20px;
+  width: 355px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.order-form__row .button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.order-container {
+  position: relative;
+}
+
+.order-container div {
+  display: inline-block;
+}
+
+.order-container .order-form {
+  width: 50%;
+  margin-left: 5vw;
+}
+
+.order-container .text {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  position: absolute;
+  top: 300px;
+}
+.order-container .text-higher {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  position: absolute;
+}
+
+.order-container .text h2 {
+  margin-bottom: 40px;
+}

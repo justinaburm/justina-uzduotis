@@ -1,0 +1,72 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  overflow: auto;
+}
+
+.border {
+  border: solid 2px #000;
+}
+
+h2 {
+  /* text-align: center; */
+  font-size: 70px;
+}
+
+h3, p {
+  margin: 15px;
+}
+
+h3 {
+  font-size: 35px;
+  /* text-align: center; */
+}
+
+p {
+  font-size: 20px;
+}
+
+hr {
+  border: solid 2px #000;
+  margin: 20px 0 80px;
+}
+
+.green-font {
+  color: #00ff00;
+}
+
+.red-font {
+  color: #ff0000;
+}
+/*  */
+
+.container {
+  margin: 40px;
+}
+
+.orders-table {
+  width: 80vw;
+  margin: 2px;
+}
+
+.orders-table thead td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4b6584;
+  text-align: center;
+  color: white;
+}
+
+.orders-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.orders-table td, .orders-table th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.orders-table tr:hover {
+  background-color: #bdc3c7;
+}
